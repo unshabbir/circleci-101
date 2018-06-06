@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run: echo "A first hello"
       - run: mkdir -p my_workspace
-      - run: echo "Trying out workspaces" > my_workspace/echo-o
+      - run: echo "Trying out workspaces one and two" > my_workspace/echo-o
       - persist_to_workspace:
           # Must be an absolute path, or relative path from working_directory
           root: my_workspace
