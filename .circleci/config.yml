@@ -25,7 +25,7 @@ jobs:
           at: my_workspace
 
       - run: |
-          if [[ $(cat my_workspace/echo-o) == "Trying out workspaces" ]]; then
+          if [[ $(cat my_workspace/echo-o) == "Trying out workspaces one and two" ]]; then
             echo "It worked!";
           else
             echo "Nope!"; exit 1
